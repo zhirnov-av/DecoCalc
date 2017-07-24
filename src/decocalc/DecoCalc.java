@@ -18,13 +18,6 @@ public class DecoCalc {
         // TODO code application logic here
         Dive dive = new Dive(60, 30, 100, 100);
         dive.writeAscendingPlan();
-
-        for (int i = 0; i < 200; i++){
-            if ((i > 0) && (i%100 == 0)){
-                System.out.println(String.format("%d %d", i%100, i));
-            }
-
-        }
     }
     
     
